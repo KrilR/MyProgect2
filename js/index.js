@@ -1,11 +1,12 @@
 var i=10;
-setInterval(changeText,6000);
+setInterval(changeText,2000);
 function changeText(){
- var arr = ["creative","comfortable","brilliant","exlusive","interesting","safe","quick","style","modern","actual"];
-    target.innerHTML=arr[i%10];
-    $("#target").fadeIn(3000);
-    $("#target").fadeOut(3000);
+    $("#target").fadeIn(1000);     
+    $("#target").fadeOut(1000);
+ var arr = ["safe","quick","style","fancy"];
+    target.innerHTML=arr[i%4];
     i++;
+
 }
 
 

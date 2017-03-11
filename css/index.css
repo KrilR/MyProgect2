@@ -18,7 +18,7 @@ header {
 header #Border{
         display: flex;
         position: absolute;
-        border: 2px solid grey;
+        border: 2px solid none;
         margin:  15vh 10vw;
         padding: 10vh 2vw;
         height: 70vh;
