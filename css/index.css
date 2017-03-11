@@ -2,7 +2,7 @@ body{
     background-color: #F0FFFF;
 }
 header {
-  background: url(./media/atl0415_2050_1.jpg) no-repeat center center scroll;
+  background: url("atl0415_2050_1.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
