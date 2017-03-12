@@ -70,10 +70,9 @@ header #slogan{
         color:#b59b4a;
         letter-spacing: 2px;
     }
-.infoplates #darkertext{
+.infoplates #firstText{
         color:#191919;
-        letter-spacing: 3px;
-            padding: 80px 50px;
+        letter-spacing: 2px;
     }
     
 .infoplates li{
@@ -86,9 +85,12 @@ header #slogan{
     padding: 5px;
     text-decoration: none;
     margin-bottom: 15px;
+    font-size: 15px;
     }
     .indexButton:hover{
         text-decoration: none;
+        background-color:#fffaea;
+        color:black;
     }
 .row #logo{
      margin: 0 auto;
@@ -100,8 +102,27 @@ header #slogan{
     color: #191919;
     font-size: 32px;
     font-style: normal;
+}
 
-    
+button[type="submit"] {
+    float: right;
+    background-color: white;
+}
+#thanks {
+    padding: 20px;
+    font-size: 20px;
+    color: #191919;
+    letter-spacing: 2px;
+    font-family: 'Kaushan Script', cursive;
+    float:right;
+}
+#question{
+    height:70px;
+}
+.tehIcon{
+    height :60px;
+    width:60px;
+    margin:20px;
 }
 
     
