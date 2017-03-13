@@ -46,8 +46,7 @@ header #slogan{
    margin:91vh 46vw 0vh 46vw;
 }
 .anchor:hover{
-      
-     cursor: pointer;
+    cursor: pointer;
     text-decoration: none;
     color: #b59b4a;
      
@@ -93,6 +92,24 @@ header #slogan{
         text-decoration: none;
         background-color:#fffaea;
         color:black;
+    }
+    .myCarouselCapt{
+    padding: 5px;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 15px;
+    background-color:#fffaea;
+    opacity: 0.3;
+    color: black;
+    font-weight: bold;
+    }
+    .myCarouselCapt h3{
+
+    }
+    
+    .myCarouselCapt:hover{
+        background-color:#fffaea;
+        opacity: 0.4;
     }
 .row .logo{
      margin: 0 auto;
@@ -158,7 +175,7 @@ button[type="submit"] {
         font-size: 27px;
     }
     header #slogan{
-        font-size:65px;
+        font-size:80px;
     }
     .container{
         margin: 5px 5% !important;
