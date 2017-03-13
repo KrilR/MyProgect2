@@ -1,3 +1,6 @@
+@media screen and (min-width: 800px) {
+}
+
 body{
     background-color: #F0FFFF;
 }
@@ -38,7 +41,7 @@ header #slogan{
     padding: 14px 14px;
    /* border: 2px solid grey;
     border-radius: 100% !important;*/
-    font-size: 40px;
+    font-size: 45px;
     color: white;
     background: transparent;
     -webkit-transition: background .3s ease-in-out;
@@ -50,7 +53,8 @@ header #slogan{
 .anchor:hover{
      /*border: 2px solid white;*/   
      cursor: pointer;
-         font-size: 45px;
+    text-decoration: none;
+    color: #b59b4a;
      
 }
 .infoplates{
@@ -123,4 +127,21 @@ button[type="submit"] {
     height :60px;
     width:60px;
     margin:20px;
+}
+@media screen and (max-width: 800px) {
+    header #slogan{
+        font-size:90px;
+    }
+    .anchor{
+        font-size: 60px;
+    }
+    .indexButton{
+        font-size: 30px;
+    }
+    .row #logo{
+    font-size: 60px;
+   }
+     #textBelowLogo{
+    font-size: 40px;
+}
 }
