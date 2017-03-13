@@ -1,7 +1,4 @@
 
-body{
-
-}
 header {
   background: url("../media/atl0415_2050_1.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -143,24 +140,24 @@ button[type="submit"] {
 }
 @media screen and (max-width: 800px) {
     body{
-        font-size: 30px;
+        font-size: 20px !important;
     }
     h4{
-        font-size: 35px;
+        font-size: 25px;
     }
     header #slogan{
-        font-size:90px;
+        font-size:65px;
     }
     .anchor{
-        font-size: 60px;
+        font-size: 40px;
     }
     .indexButton{
-        font-size: 30px;
+        font-size: 25px;
     }
     .row .logo{
-    font-size: 60px;
+    font-size: 40px;
    }
      #textBelowLogo{
-    font-size: 40px;
+    font-size: 30px;
 }
 }

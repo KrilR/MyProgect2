@@ -1,0 +1,172 @@
+
+header {
+  background: url("../media/atl0415_2050_1.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+  .logo{
+        font-family: 'Kaushan Script', cursive;
+        z-index: 1;
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+header #Border{
+        display: flex;
+        position: absolute;
+        border: 2px solid none;
+        margin:  15vh 10vw;
+        padding: 10vh 2vw;
+        height: 70vh;
+        width: 80vw;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+}
+header #slogan{
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size:60px;
+}
+.anchor{
+    width: 70px;
+    height: 70px;
+    padding: 14px 14px;
+   /* border: 2px solid grey;
+    border-radius: 100% !important;*/
+    font-size: 40px;
+    color: white;
+    background: transparent;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+   bottom:0;
+   margin:91vh 46vw 0vh 46vw;
+}
+.anchor:hover{
+      
+     cursor: pointer;
+    text-decoration: none;
+    color: #b59b4a;
+     
+}
+.infoplates{
+    font-family: 'Raleway', sans-serif;
+    left:0vw;
+    top:0vh;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 2px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.infoplates h1{
+        color:#b59b4a;
+        text-align:center;
+        letter-spacing: 5px;
+
+    }
+.infoplates #coloredtext{
+        color:#b59b4a;
+        letter-spacing: 2px;
+    }
+.infoplates #firstText{
+        color:#191919;
+        letter-spacing: 2px;
+    }
+    
+.infoplates li{
+        color:#191919;
+        letter-spacing: 2px;
+    }
+    .indexButton{
+    border: 1px solid #b59b4a;
+    color: #191919;
+    padding: 5px;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 15px;
+    }
+    .indexButton:hover{
+        text-decoration: none;
+        background-color:#fffaea;
+        color:black;
+    }
+.row .logo{
+     margin: 0 auto;
+    font-size: 45px;
+    color:#b59b4a;
+    padding: 80px 50px;
+}
+ #textBelowLogo{
+    color: #191919;
+    font-size: 32px;
+    font-style: normal;
+}
+
+button[type="submit"] {
+    float: right;
+    background-color: white;
+}
+#thanks {
+    padding: 20px;
+    font-size: 20px;
+    color: #191919;
+    letter-spacing: 2px;
+    font-family: 'Kaushan Script', cursive;
+    float:right;
+}
+.formFieds{
+    height: 40px;
+}
+#question{
+    height:70px;
+}
+.tehIcon{
+    height :60px;
+    width:60px;
+    margin:20px;
+}
+ .myFooter {
+            margin-top: 50px;
+            bottom: 0;
+        }
+.snInfo {
+    float: right;
+    margin: 0 5px;
+    height: 40px;
+}
+@media only screen and (min-device-width:681px) {
+    body{
+        font-size: 15px !important;
+    }
+    h4{
+        font-size: 15px;
+    }
+    header #slogan{
+        font-size:60px;
+    }
+}
+@media only screen and (max-device-width:680px) {
+    body{
+        font-size: 25px !important;
+        letter-spacing: 1px;
+    }
+    h4{
+        font-size: 27px;
+    }
+    header #slogan{
+        font-size:65px;
+    }
+    .container{
+        margin: 5px 5% !important;
+        padding: 0;
+        width: 90%;
+    }
+    .row{
+        margin: 5px 0 !important;
+        padding: 0;
+    }
+}
